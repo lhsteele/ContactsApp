@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF8F84CA1E298DCD00C32EBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8F84C91E298DCD00C32EBA /* AppDelegate.swift */; };
+		EF8F84CC1E298DCD00C32EBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8F84CB1E298DCD00C32EBA /* ViewController.swift */; };
+		EF8F84CF1E298DCD00C32EBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8F84CD1E298DCD00C32EBA /* Main.storyboard */; };
+		EF8F84D11E298DCD00C32EBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF8F84D01E298DCD00C32EBA /* Assets.xcassets */; };
+		EF8F84D41E298DCD00C32EBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8F84D21E298DCD00C32EBA /* LaunchScreen.storyboard */; };
+		EF8F84DF1E298DCD00C32EBA /* ContactsApp_ThinkfulTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8F84DE1E298DCD00C32EBA /* ContactsApp_ThinkfulTests.swift */; };
+		EF8F84EA1E298DCD00C32EBA /* ContactsApp_ThinkfulUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8F84E91E298DCD00C32EBA /* ContactsApp_ThinkfulUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF8F84DB1E298DCD00C32EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF8F84BE1E298DCD00C32EBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF8F84C51E298DCD00C32EBA;
+			remoteInfo = ContactsApp_Thinkful;
+		};
+		EF8F84E61E298DCD00C32EBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF8F84BE1E298DCD00C32EBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF8F84C51E298DCD00C32EBA;
+			remoteInfo = ContactsApp_Thinkful;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF8F84C61E298DCD00C32EBA /* ContactsApp_Thinkful.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactsApp_Thinkful.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8F84C91E298DCD00C32EBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF8F84CB1E298DCD00C32EBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF8F84CE1E298DCD00C32EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF8F84D01E298DCD00C32EBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF8F84D31E298DCD00C32EBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF8F84D51E298DCD00C32EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF8F84DA1E298DCD00C32EBA /* ContactsApp_ThinkfulTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsApp_ThinkfulTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8F84DE1E298DCD00C32EBA /* ContactsApp_ThinkfulTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsApp_ThinkfulTests.swift; sourceTree = "<group>"; };
+		EF8F84E01E298DCD00C32EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF8F84E51E298DCD00C32EBA /* ContactsApp_ThinkfulUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsApp_ThinkfulUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8F84E91E298DCD00C32EBA /* ContactsApp_ThinkfulUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsApp_ThinkfulUITests.swift; sourceTree = "<group>"; };
+		EF8F84EB1E298DCD00C32EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF8F84C31E298DCD00C32EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8F84D71E298DCD00C32EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8F84E21E298DCD00C32EBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF8F84BD1E298DCD00C32EBA = {
+			isa = PBXGroup;
+			children = (
+				EF8F84C81E298DCD00C32EBA /* ContactsApp_Thinkful */,
+				EF8F84DD1E298DCD00C32EBA /* ContactsApp_ThinkfulTests */,
+				EF8F84E81E298DCD00C32EBA /* ContactsApp_ThinkfulUITests */,
+				EF8F84C71E298DCD00C32EBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF8F84C71E298DCD00C32EBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF8F84C61E298DCD00C32EBA /* ContactsApp_Thinkful.app */,
+				EF8F84DA1E298DCD00C32EBA /* ContactsApp_ThinkfulTests.xctest */,
+				EF8F84E51E298DCD00C32EBA /* ContactsApp_ThinkfulUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF8F84C81E298DCD00C32EBA /* ContactsApp_Thinkful */ = {
+			isa = PBXGroup;
+			children = (
+				EF8F84C91E298DCD00C32EBA /* AppDelegate.swift */,
+				EF8F84CB1E298DCD00C32EBA /* ViewController.swift */,
+				EF8F84CD1E298DCD00C32EBA /* Main.storyboard */,
+				EF8F84D01E298DCD00C32EBA /* Assets.xcassets */,
+				EF8F84D21E298DCD00C32EBA /* LaunchScreen.storyboard */,
+				EF8F84D51E298DCD00C32EBA /* Info.plist */,
+			);
+			path = ContactsApp_Thinkful;
+			sourceTree = "<group>";
+		};
+		EF8F84DD1E298DCD00C32EBA /* ContactsApp_ThinkfulTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF8F84DE1E298DCD00C32EBA /* ContactsApp_ThinkfulTests.swift */,
+				EF8F84E01E298DCD00C32EBA /* Info.plist */,
+			);
+			path = ContactsApp_ThinkfulTests;
+			sourceTree = "<group>";
+		};
+		EF8F84E81E298DCD00C32EBA /* ContactsApp_ThinkfulUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF8F84E91E298DCD00C32EBA /* ContactsApp_ThinkfulUITests.swift */,
+				EF8F84EB1E298DCD00C32EBA /* Info.plist */,
+			);
+			path = ContactsApp_ThinkfulUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF8F84C51E298DCD00C32EBA /* ContactsApp_Thinkful */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8F84EE1E298DCD00C32EBA /* Build configuration list for PBXNativeTarget "ContactsApp_Thinkful" */;
+			buildPhases = (
+				EF8F84C21E298DCD00C32EBA /* Sources */,
+				EF8F84C31E298DCD00C32EBA /* Frameworks */,
+				EF8F84C41E298DCD00C32EBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContactsApp_Thinkful;
+			productName = ContactsApp_Thinkful;
+			productReference = EF8F84C61E298DCD00C32EBA /* ContactsApp_Thinkful.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF8F84D91E298DCD00C32EBA /* ContactsApp_ThinkfulTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8F84F11E298DCD00C32EBA /* Build configuration list for PBXNativeTarget "ContactsApp_ThinkfulTests" */;
+			buildPhases = (
+				EF8F84D61E298DCD00C32EBA /* Sources */,
+				EF8F84D71E298DCD00C32EBA /* Frameworks */,
+				EF8F84D81E298DCD00C32EBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF8F84DC1E298DCD00C32EBA /* PBXTargetDependency */,
+			);
+			name = ContactsApp_ThinkfulTests;
+			productName = ContactsApp_ThinkfulTests;
+			productReference = EF8F84DA1E298DCD00C32EBA /* ContactsApp_ThinkfulTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF8F84E41E298DCD00C32EBA /* ContactsApp_ThinkfulUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8F84F41E298DCD00C32EBA /* Build configuration list for PBXNativeTarget "ContactsApp_ThinkfulUITests" */;
+			buildPhases = (
+				EF8F84E11E298DCD00C32EBA /* Sources */,
+				EF8F84E21E298DCD00C32EBA /* Frameworks */,
+				EF8F84E31E298DCD00C32EBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF8F84E71E298DCD00C32EBA /* PBXTargetDependency */,
+			);
+			name = ContactsApp_ThinkfulUITests;
+			productName = ContactsApp_ThinkfulUITests;
+			productReference = EF8F84E51E298DCD00C32EBA /* ContactsApp_ThinkfulUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF8F84BE1E298DCD00C32EBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Lisa Steele";
+				TargetAttributes = {
+					EF8F84C51E298DCD00C32EBA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					EF8F84D91E298DCD00C32EBA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF8F84C51E298DCD00C32EBA;
+					};
+					EF8F84E41E298DCD00C32EBA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EF8F84C51E298DCD00C32EBA;
+					};
+				};
+			};
+			buildConfigurationList = EF8F84C11E298DCD00C32EBA /* Build configuration list for PBXProject "ContactsApp_Thinkful" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF8F84BD1E298DCD00C32EBA;
+			productRefGroup = EF8F84C71E298DCD00C32EBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF8F84C51E298DCD00C32EBA /* ContactsApp_Thinkful */,
+				EF8F84D91E298DCD00C32EBA /* ContactsApp_ThinkfulTests */,
+				EF8F84E41E298DCD00C32EBA /* ContactsApp_ThinkfulUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF8F84C41E298DCD00C32EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8F84D41E298DCD00C32EBA /* LaunchScreen.storyboard in Resources */,
+				EF8F84D11E298DCD00C32EBA /* Assets.xcassets in Resources */,
+				EF8F84CF1E298DCD00C32EBA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8F84D81E298DCD00C32EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8F84E31E298DCD00C32EBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF8F84C21E298DCD00C32EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8F84CC1E298DCD00C32EBA /* ViewController.swift in Sources */,
+				EF8F84CA1E298DCD00C32EBA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8F84D61E298DCD00C32EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8F84DF1E298DCD00C32EBA /* ContactsApp_ThinkfulTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8F84E11E298DCD00C32EBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8F84EA1E298DCD00C32EBA /* ContactsApp_ThinkfulUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF8F84DC1E298DCD00C32EBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF8F84C51E298DCD00C32EBA /* ContactsApp_Thinkful */;
+			targetProxy = EF8F84DB1E298DCD00C32EBA /* PBXContainerItemProxy */;
+		};
+		EF8F84E71E298DCD00C32EBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF8F84C51E298DCD00C32EBA /* ContactsApp_Thinkful */;
+			targetProxy = EF8F84E61E298DCD00C32EBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF8F84CD1E298DCD00C32EBA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF8F84CE1E298DCD00C32EBA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF8F84D21E298DCD00C32EBA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF8F84D31E298DCD00C32EBA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF8F84EC1E298DCD00C32EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF8F84ED1E298DCD00C32EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF8F84EF1E298DCD00C32EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ContactsApp_Thinkful/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LisaSteele.ContactsApp-Thinkful";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EF8F84F01E298DCD00C32EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ContactsApp_Thinkful/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LisaSteele.ContactsApp-Thinkful";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EF8F84F21E298DCD00C32EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ContactsApp_ThinkfulTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LisaSteele.ContactsApp-ThinkfulTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactsApp_Thinkful.app/ContactsApp_Thinkful";
+			};
+			name = Debug;
+		};
+		EF8F84F31E298DCD00C32EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ContactsApp_ThinkfulTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LisaSteele.ContactsApp-ThinkfulTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactsApp_Thinkful.app/ContactsApp_Thinkful";
+			};
+			name = Release;
+		};
+		EF8F84F51E298DCD00C32EBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ContactsApp_ThinkfulUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LisaSteele.ContactsApp-ThinkfulUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ContactsApp_Thinkful;
+			};
+			name = Debug;
+		};
+		EF8F84F61E298DCD00C32EBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ContactsApp_ThinkfulUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LisaSteele.ContactsApp-ThinkfulUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ContactsApp_Thinkful;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF8F84C11E298DCD00C32EBA /* Build configuration list for PBXProject "ContactsApp_Thinkful" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8F84EC1E298DCD00C32EBA /* Debug */,
+				EF8F84ED1E298DCD00C32EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF8F84EE1E298DCD00C32EBA /* Build configuration list for PBXNativeTarget "ContactsApp_Thinkful" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8F84EF1E298DCD00C32EBA /* Debug */,
+				EF8F84F01E298DCD00C32EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF8F84F11E298DCD00C32EBA /* Build configuration list for PBXNativeTarget "ContactsApp_ThinkfulTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8F84F21E298DCD00C32EBA /* Debug */,
+				EF8F84F31E298DCD00C32EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF8F84F41E298DCD00C32EBA /* Build configuration list for PBXNativeTarget "ContactsApp_ThinkfulUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8F84F51E298DCD00C32EBA /* Debug */,
+				EF8F84F61E298DCD00C32EBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF8F84BE1E298DCD00C32EBA /* Project object */;
+}
