@@ -14,6 +14,9 @@
 		EF8F84D41E298DCD00C32EBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8F84D21E298DCD00C32EBA /* LaunchScreen.storyboard */; };
 		EF8F84DF1E298DCD00C32EBA /* ContactsApp_ThinkfulTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8F84DE1E298DCD00C32EBA /* ContactsApp_ThinkfulTests.swift */; };
 		EF8F84EA1E298DCD00C32EBA /* ContactsApp_ThinkfulUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8F84E91E298DCD00C32EBA /* ContactsApp_ThinkfulUITests.swift */; };
+		EF8F84F81E298E5000C32EBA /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8F84F71E298E5000C32EBA /* ContactsTableViewController.swift */; };
+		EF8F84FA1E29A23600C32EBA /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8F84F91E29A23600C32EBA /* Contact.swift */; };
+		EF8F84FE1E29DF0A00C32EBA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8F84FD1E29DF0A00C32EBA /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		EF8F84E51E298DCD00C32EBA /* ContactsApp_ThinkfulUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsApp_ThinkfulUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF8F84E91E298DCD00C32EBA /* ContactsApp_ThinkfulUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsApp_ThinkfulUITests.swift; sourceTree = "<group>"; };
 		EF8F84EB1E298DCD00C32EBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF8F84F71E298E5000C32EBA /* ContactsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
+		EF8F84F91E29A23600C32EBA /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		EF8F84FD1E29DF0A00C32EBA /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = ../DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +105,10 @@
 			children = (
 				EF8F84C91E298DCD00C32EBA /* AppDelegate.swift */,
 				EF8F84CB1E298DCD00C32EBA /* ViewController.swift */,
+				EF8F84FD1E29DF0A00C32EBA /* DetailViewController.swift */,
 				EF8F84CD1E298DCD00C32EBA /* Main.storyboard */,
+				EF8F84F91E29A23600C32EBA /* Contact.swift */,
+				EF8F84F71E298E5000C32EBA /* ContactsTableViewController.swift */,
 				EF8F84D01E298DCD00C32EBA /* Assets.xcassets */,
 				EF8F84D21E298DCD00C32EBA /* LaunchScreen.storyboard */,
 				EF8F84D51E298DCD00C32EBA /* Info.plist */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF8F84FA1E29A23600C32EBA /* Contact.swift in Sources */,
 				EF8F84CC1E298DCD00C32EBA /* ViewController.swift in Sources */,
+				EF8F84FE1E29DF0A00C32EBA /* DetailViewController.swift in Sources */,
 				EF8F84CA1E298DCD00C32EBA /* AppDelegate.swift in Sources */,
+				EF8F84F81E298E5000C32EBA /* ContactsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
