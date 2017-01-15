@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Tjc-hL-wWn">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="fji-22-s61">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -34,6 +34,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="uE0-rE-SOc" kind="show" identifier="contactsDetailSegue" id="7Zw-pD-cnj"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -42,35 +45,32 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="d3A-HT-kiB"/>
-                    <connections>
-                        <segue destination="b5G-xM-Tbd" kind="show" identifier="contactsDetailSegue" id="Aaa-kP-cWR"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4r0-54-ObY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1236" y="117.39130434782609"/>
+            <point key="canvasLocation" x="4053.5999999999999" y="117.39130434782609"/>
         </scene>
         <!--Detail View Controller-->
-        <scene sceneID="fsY-Jd-fvq">
+        <scene sceneID="ALS-jP-bbt">
             <objects>
-                <viewController id="b5G-xM-Tbd" customClass="DetailViewController" customModule="ContactsApp_Thinkful" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="uE0-rE-SOc" customClass="DetailViewController" customModule="ContactsApp_Thinkful" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="OKt-Ay-mHq"/>
-                        <viewControllerLayoutGuide type="bottom" id="N84-X0-QyK"/>
+                        <viewControllerLayoutGuide type="top" id="mwW-u1-9cQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="OB5-83-rdH"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="CW4-A8-QRY">
+                    <view key="view" contentMode="scaleToFill" id="psD-83-u9e">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RYs-5p-jnR">
-                                <rect key="frame" x="16" y="72" width="45" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RWV-0o-iVj">
+                                <rect key="frame" x="16" y="88" width="45" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Phone Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MJF-DI-1KR">
-                                <rect key="frame" x="16" y="119" width="115" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Phone Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PoI-T6-kh3">
+                                <rect key="frame" x="16" y="131" width="115" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -80,31 +80,32 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="nameLabel" destination="RYs-5p-jnR" id="zqG-tt-7gW"/>
-                        <outlet property="phoneNumberLabel" destination="MJF-DI-1KR" id="Tyj-Mg-MeA"/>
+                        <outlet property="nameLabel" destination="RWV-0o-iVj" id="XxN-A0-JVy"/>
+                        <outlet property="phoneNumberLabel" destination="PoI-T6-kh3" id="urz-uM-2Ek"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="GGG-0S-mBX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="drp-uO-0yq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2016.8" y="116.49175412293854"/>
+            <point key="canvasLocation" x="4839.1999999999998" y="116.49175412293854"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="Aj2-R2-Sk3">
+        <scene sceneID="AKQ-6x-451">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Tjc-hL-wWn" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fji-22-s61" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="L6w-rP-aq1">
+                    <navigationItem key="navigationItem" id="JHY-CK-bVe"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vu8-zc-amm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="WfI-kG-seb" kind="relationship" relationship="rootViewController" id="3D5-O6-GLS"/>
+                        <segue destination="WfI-kG-seb" kind="relationship" relationship="rootViewController" id="c1Q-eW-3hj"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3No-4V-L6f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XaQ-6Z-Hj2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="296.80000000000001" y="117.39130434782609"/>
+            <point key="canvasLocation" x="3114.4000000000001" y="117.39130434782609"/>
         </scene>
     </scenes>
 </document>

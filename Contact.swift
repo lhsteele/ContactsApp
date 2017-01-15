@@ -2,7 +2,7 @@
 //  Contact.swift
 //  ContactsApp_Thinkful
 //
-//  Created by Lisa Steele on 1/13/17.
+//  Created by Lisa Steele on 1/15/17.
 //  Copyright © 2017 Lisa Steele. All rights reserved.
 //
 
