@@ -8,12 +8,16 @@
 
 import UIKit
 
+//This file handles the code behind the Detail View Controller.
+
 class DetailViewController: UIViewController, UITextFieldDelegate {
     
+    //Having UITextField properties instead of UILabel properties allows us to edit them.
     @IBOutlet var nameField: UITextField!
     @IBOutlet var phoneNumberField: UITextField!
     var contact: Contact?
 
+    //When a user stops typing in the text field, it saves the value in the field text to our Contact object.
     func textFieldDidEndEditing(_ textField: UITextField) {
         if textField == self.nameField {
             self.contact?.name = textField.text
@@ -22,6 +26,7 @@ class DetailViewController: UIViewController, UITextFieldDelegate {
         }
     }
     
+    //if let -- checks if the contact property has a value. If so, then we check the name and phoneNumber properties of that Contact for values. If found, we change the text of our labels to the information found.
     override func viewDidLoad() {
         super.viewDidLoad()
         self.nameField.delegate = self
