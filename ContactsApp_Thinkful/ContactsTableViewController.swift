@@ -20,11 +20,7 @@ class ContactsTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
-        let moveButton = UIBarButtonItem(barButtonSystemItem: .edit, target: self, action: #selector(ContactsTableViewController.toggleEdit))
-        navigationItem.leftBarButtonItem = moveButton
-        
+       
         
         let jenny = Contact(phoneNumber: "867-5309")
         let rich = Contact(name: "Rich", phoneNumber: "888-888-8888")
@@ -33,6 +29,13 @@ class ContactsTableViewController: UITableViewController {
         self.contacts.append(jenny)
         self.contacts.append(rich)
         self.contacts.append(mindy)
+        
+        
+        let moveButton = UIBarButtonItem(barButtonSystemItem: .edit, target: self, action: #selector(ContactsTableViewController.toggleEdit))
+        navigationItem.leftBarButtonItem = moveButton
+        
+        let addButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(ContactsTableViewController.addContact))
+        navigationItem.rightBarButtonItem = addButton
         
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -106,6 +109,18 @@ class ContactsTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, shouldIndentWhileEditingRowAt indexPath: IndexPath) -> Bool {
         return false
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        tableView.reloadData()
+    }
+    
+    func addContact() {
+        let newContact = Contact(name: "New Contact")
+        self.contacts.append(newContact)
+        let newIndexPath = IndexPath(row: self.contacts.count - 1, section: 0)
+        self.tableView.insertRows(at: [newIndexPath], with: .automatic)
     }
 }
 
